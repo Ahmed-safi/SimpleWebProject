@@ -1,0 +1,151 @@
+a{
+	color: #fff;
+	text-decoration: none;
+}
+h1 , h2 , h3 , h4 , h5 , h6 , p{
+	font-family: Comic Sans MS;
+}
+/*start header*/
+.heder{
+	height: 425px;
+	background: url(../imag/bac.jpg); 
+	text-align: center;
+	padding: 10px;	
+}
+.heder h1{
+	color: #fff;
+	font-size: 60px;
+	margin-top: 120px;
+
+}
+.contener{
+	width: 800px;
+	margin: auto;
+}
+.heder button{
+	background: none;
+	height: 50px;
+	width: 200px;
+	color: #fff;
+	font-size: 30px;
+	font-family: Comic Sans MS;
+	border-color: #fff 
+}
+.heder button:hover{
+	background: none;
+    background: #003366;
+    transition: .9s;
+
+}
+/*end header*/
+/*start menu*/
+.menu{
+	height: 64px;
+	padding-top: 10px;
+	background:#0066cc;
+	font-family: Comic Sans MS;
+}
+.menu .contener h2{
+	color: #fff;
+	float: left;
+	position: relative;
+	bottom: 30px;
+	margin: 30px;
+}
+.menu .contener ul{
+	list-style: none;
+}
+.menu .contener ul li{
+	float: right;
+	color: #fff;
+	position: relative;
+	bottom: 24px;
+	margin: 30px;
+	text-align: center;
+}
+.menu .contener ul li:hover{
+	color: #003366;
+	border: solid 1px #fff;
+	border-right: solid 1px #fff;
+
+}
+.menu .contener h2:hover{
+	color: #003366;
+}
+/*end menu*/
+/*start contener*/
+.courses{
+	margin-top: 30px;
+}
+.courses .contener .box1{
+	float: left;
+	width: 40%;
+}
+.courses .contener .a{
+	float: right;
+	width: 35%;
+}
+.clear{
+	clear: both;
+}
+.courses .contener .box2 .a1{
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin: 20px;
+}
+.courses .contener .box2 .a1 img{
+
+	width: 100%;
+	
+}
+
+/*end contener*/
+
+/* start footer */
+.clear{
+	margin-top: 30px;
+}
+.footer{
+	margin-top: 400px;
+	background: #0066cc;
+	height: 425px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+.footer .contener .part1{
+	float: left;
+	width: 100%;
+}
+.footer .contener form{
+	float: right;
+}
+.footer .contener form input ,
+ .footer .contener form textarea{
+	margin-bottom: 1.5px; 
+	font-family: Comic Sans MS;
+	border-radius: 3px;
+	background:  #003366;
+	color: #fff;
+	width: 196px;
+	border-color: #fff 
+}
+
+.footer button{
+	background: none;
+	width: 202.5px;
+	font-family: Comic Sans MS;
+	color: #fff;
+	border-radius: 3px;
+	border-color: #fff 
+}
+.footer button:hover{
+    background:  #003366;
+    transition: .9s;
+
+}
+.change{
+	color: #000;
+}
+
+/* end footer */
